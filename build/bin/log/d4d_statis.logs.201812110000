@@ -1,0 +1,35 @@
+time="2018-12-11T10:52:06+08:00" level=info msg=" start service ok!" caller="start.go:54" module=ginloger
+time="2018-12-11T10:52:06+08:00" level=info msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:222" module=node
+time="2018-12-11T10:52:06+08:00" level=debug msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:223" module=node
+time="2018-12-11T10:52:06+08:00" level=info msg="WebSocket endpoint opened url ws://127.0.0.1:8545" caller="node.go:256" module=node
+time="2018-12-11T10:52:37+08:00" level=debug msg="request body: map[string]interface {}{\"id\":1234, \"jsonrpc\":\"2.0\", \"method\":\"statistical_getNow\", \"params\":[]interface {}{}}" caller="http.go:201" module=rpc
+time="2018-12-11T10:52:37+08:00" level=debug msg="request info: remoteAddr=127.0.0.1:50077 requestURI=/ scheme=HTTP/1.1 host=127.0.0.1:8547 time=2018-12-11T10:52:37+0800" caller="fileter_middleware.go:24" module=rpc
+time="2018-12-11T10:52:37+08:00" level=debug msg="request info: userAgent=\"PostmanRuntime/7.1.1\" url=" caller="fileter_middleware.go:25" module=rpc
+time="2018-12-11T10:54:36+08:00" level=info msg="WebSocket endpoint closed url ws://127.0.0.1:8545" caller="node.go:270" module=node
+time="2018-12-11T10:54:36+08:00" level=info msg="HTTP endpoint closed url http://0.0.0.0:8547" caller="node.go:238" module=node
+time="2018-12-11T11:16:06+08:00" level=info msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:222" module=node
+time="2018-12-11T11:16:06+08:00" level=debug msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:223" module=node
+time="2018-12-11T11:16:06+08:00" level=info msg="WebSocket endpoint opened url ws://127.0.0.1:8545" caller="node.go:256" module=node
+time="2018-12-11T11:17:01+08:00" level=info msg="WebSocket endpoint closed url ws://127.0.0.1:8545" caller="node.go:270" module=node
+time="2018-12-11T11:17:01+08:00" level=info msg="HTTP endpoint closed url http://0.0.0.0:8547" caller="node.go:238" module=node
+time="2018-12-11T11:18:03+08:00" level=info msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:222" module=node
+time="2018-12-11T11:18:03+08:00" level=debug msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:223" module=node
+time="2018-12-11T11:18:03+08:00" level=info msg="WebSocket endpoint opened url ws://127.0.0.1:8545" caller="node.go:256" module=node
+time="2018-12-11T11:18:07+08:00" level=debug msg="request body: map[string]interface {}{\"params\":[]interface {}{}, \"id\":1234, \"jsonrpc\":\"2.0\", \"method\":\"statistical_getNow\"}" caller="http.go:201" module=rpc
+time="2018-12-11T11:18:07+08:00" level=debug msg="request info: remoteAddr=127.0.0.1:50638 requestURI=/ scheme=HTTP/1.1 host=127.0.0.1:8547 time=2018-12-11T11:18:07+0800" caller="fileter_middleware.go:24" module=rpc
+time="2018-12-11T11:18:07+08:00" level=debug msg="request info: userAgent=\"PostmanRuntime/7.1.1\" url=" caller="fileter_middleware.go:25" module=rpc
+time="2018-12-11T11:18:13+08:00" level=debug msg="request body: map[string]interface {}{\"params\":[]interface {}{}, \"id\":1234, \"jsonrpc\":\"2.0\", \"method\":\"statistical_getNow\"}" caller="http.go:201" module=rpc
+time="2018-12-11T11:18:13+08:00" level=debug msg="request info: remoteAddr=127.0.0.1:50638 requestURI=/ scheme=HTTP/1.1 host=127.0.0.1:8547 time=2018-12-11T11:18:13+0800" caller="fileter_middleware.go:24" module=rpc
+time="2018-12-11T11:18:13+08:00" level=debug msg="request info: userAgent=\"PostmanRuntime/7.1.1\" url=" caller="fileter_middleware.go:25" module=rpc
+time="2018-12-11T11:19:01+08:00" level=debug msg="request body: map[string]interface {}{\"method\":\"statistical_getNow\", \"params\":[]interface {}{}, \"id\":1234, \"jsonrpc\":\"2.0\"}" caller="http.go:201" module=rpc
+time="2018-12-11T11:19:01+08:00" level=debug msg="request info: remoteAddr=127.0.0.1:50638 requestURI=/ scheme=HTTP/1.1 host=127.0.0.1:8547 time=2018-12-11T11:19:01+0800" caller="fileter_middleware.go:24" module=rpc
+time="2018-12-11T11:19:01+08:00" level=debug msg="request info: userAgent=\"PostmanRuntime/7.1.1\" url=" caller="fileter_middleware.go:25" module=rpc
+time="2018-12-11T11:21:47+08:00" level=info msg="WebSocket endpoint closed url ws://127.0.0.1:8545" caller="node.go:270" module=node
+time="2018-12-11T11:21:47+08:00" level=info msg="HTTP endpoint closed url http://0.0.0.0:8547" caller="node.go:238" module=node
+time="2018-12-11T11:26:17+08:00" level=info msg=" start service ok!" caller="start.go:59" module=ginloger
+time="2018-12-11T11:26:17+08:00" level=info msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:222" module=node
+time="2018-12-11T11:26:17+08:00" level=info msg="WebSocket endpoint opened url ws://127.0.0.1:8545" caller="node.go:256" module=node
+time="2018-12-11T11:26:41+08:00" level=info msg=222222222222222 caller="handle.go:10" module=work
+time="2018-12-11T11:27:11+08:00" level=info msg=222222222222222 caller="handle.go:10" module=work
+time="2018-12-11T11:27:15+08:00" level=info msg="WebSocket endpoint closed url ws://127.0.0.1:8545" caller="node.go:270" module=node
+time="2018-12-11T11:27:15+08:00" level=info msg="HTTP endpoint closed url http://0.0.0.0:8547" caller="node.go:238" module=node

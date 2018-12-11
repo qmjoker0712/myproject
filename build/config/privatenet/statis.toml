@@ -1,0 +1,99 @@
+[node]
+HTTPHost="0.0.0.0"
+HTTPPort= "8547"
+HTTPCors=["*"]
+HTTPVirtualHosts=["*"]
+HTTPModules=["statistical"]
+
+# WSHost="0.0.0.0"
+# WSPort="8549"
+# WSOrigins=["*"]
+# WSModules=["statistical"]
+
+[profile]
+profileaddress="0.0.0.0:6060"
+open=true
+
+[kmq]
+KafkaAddresses=["106.75.15.248:8620"]
+FetcherTopic="d4d_test1"
+FetcherOffsetKey="statis_offline"
+
+[common]
+## disableRedis, default false, if true disable redis
+#disableRedis=true 
+
+## disableMySQL, default false, if true disable mysql
+#disableMySQL=true 
+
+[log]
+level="info"
+
+# logger depth can modify
+#depth=-1 
+
+## print line, file and module name in log
+withCallerHook=true 
+filePrefix= ""
+
+## default set path /tmp in linux
+path="./log"
+fileName="d4d_statis.logs"
+write=true
+
+## rotalogs max age, unit hours, default 24*7
+maxAge=168 
+
+## rotalogs rotation time, unit hours, default 24
+rotationTime=24
+
+## output log format, default is text
+#formatter="json" 
+
+## if set debug=true, will extra output separated logs with lever
+#debug=true
+
+[mysql]
+# hostname="114.115.212.109"
+# port="8082"
+# user="s3d_user"
+
+# # your mysql db password
+# password="s3d@018"
+# dbName="s3d"
+
+hostname="106.75.25.3"
+port="8501"
+user="root"
+password="root123456" 
+dbName="d4d"
+
+## table prefix add only for crateTable
+tablePrefix="d4d_"
+
+maxOpenConnections=0
+maxIdleConnections=0
+connMaxLifetime=0
+debug=true
+
+[redis]
+host="127.0.0.1"
+port="6379"
+password=""
+idleTimeout=20
+maxIdle=2
+maxActive=5
+[ginPort]
+ginPort="8537"
+[statistical]
+rankTimeTask="0 0 0,2,4,6,8,10,12,14,16,18,20,22 * * ?"
+tdTimeTask="0 0 0,4,8,12,16,20 * * ?"
+profitGraphTime=14400
+rankHistroyTime="12"
+# rankTimeTask="0 */5 * * * *"
+# tdTimeTask="0 */5 * * * *"
+# profitGraphTime=600
+marketSequence = "0 0 23 * * ?"
+# marketSequence = "*/30 * * * * *"
+#rankHistroyTime="1,2,3,4,5,6,7,8,9,10,11,12"
+filePath="/data/download/stats/"

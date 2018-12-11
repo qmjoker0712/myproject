@@ -1,0 +1,13 @@
+time="2018-12-04T10:04:06+08:00" level=info msg="TimeTaskRankHistory State[success] beginTime[1543889046569 ms]" caller="time_task.go:29" module=statistical
+time="2018-12-04T10:04:06+08:00" level=info msg="TimeMarketSequence State[success] endTime[1543889046569 ms]" caller="time_task.go:54" module=statistical
+time="2018-12-04T10:04:06+08:00" level=info msg="TimeTaskDailyTransactionDividends State[success] endTime[1543889046569 ms]" caller="time_task.go:41" module=statistical
+time="2018-12-04T10:04:07+08:00" level=error msg="GetAllTokens err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host." caller="statishandle.go:58" module=statistical
+time="2018-12-04T10:04:07+08:00" level=error msg="GetAllTokens err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host." caller="statishandle.go:74" module=statistical
+time="2018-12-04T10:04:11+08:00" level=error msg="TimeTaskRankHistory err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host." caller="time_task.go:32" module=statistical
+time="2018-12-04T10:04:11+08:00" level=error msg="TimeTaskDailyTransactionDividends err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host." caller="time_task.go:44" module=statistical
+time="2018-12-04T10:04:07+08:00" level=error msg="get GetAllTokens info err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host. " caller="market_statistics.go:33" module=statistical
+time="2018-12-04T10:04:11+08:00" level=info msg="TimeTaskRankHistory State[faild] beginTime[1543889051502 ms]" caller="time_task.go:33" module=statistical
+time="2018-12-04T10:04:11+08:00" level=info msg="TimeTaskDailyTransactionDividends State[faild] endTime[1543889051502 ms]" caller="time_task.go:45" module=statistical
+time="2018-12-04T10:04:11+08:00" level=error msg="TimeMarketSequence err:dial tcp 106.75.25.3:8501: connectex: A socket operation was attempted to an unreachable host." caller="time_task.go:57" module=statistical
+time="2018-12-04T10:04:11+08:00" level=info msg="TimeMarketSequence State[faild] endTime[1543889051502 ms]" caller="time_task.go:58" module=statistical
+time="2018-12-04T10:04:07+08:00" level=error msg="[Consumer] get error at topic:d4d_test1, partition:0, reson:kafka: error while consuming d4d_test1/0: read tcp 172.16.1.130:57907->106.75.15.248:8620: wsarecv: An established connection was aborted by the software in your host machine." caller="consumer.go:120" module=kmq

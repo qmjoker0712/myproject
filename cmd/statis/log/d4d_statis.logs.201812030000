@@ -1,0 +1,21 @@
+time="2018-12-03T17:56:11+08:00" level=info msg="=== create Statis Consumer success!" caller="start.go:61" module=kmq
+time="2018-12-03T17:56:11+08:00" level=info msg="Start consumer success!" caller="consumer.go:79" module=kmq
+time="2018-12-03T17:56:11+08:00" level=info msg="=== Start Fetcher Consumer success!" caller="start.go:69" module=kmq
+time="2018-12-03T17:56:11+08:00" level=info msg="HTTP endpoint opened url http://0.0.0.0:8547 cors * vhosts *" caller="node.go:222" module=node
+time="2018-12-03T17:56:11+08:00" level=info msg="WebSocket endpoint opened url ws://127.0.0.1:8545" caller="node.go:256" module=node
+time="2018-12-03T17:56:26+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543830986441 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T17:56:26+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543830986461 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T17:58:06+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831086663 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T17:58:06+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831086724 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T17:59:07+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831147327 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T17:59:07+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831147748 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T17:59:36+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831176211 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T17:59:36+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831176268 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T18:00:00+08:00" level=info msg="TimeTaskRankHistory State[success] beginTime[1543831200000 ms]" caller="time_task.go:29" module=statistical
+time="2018-12-03T18:00:00+08:00" level=info msg="TimeTaskRankHistory State[success] endTime[1543831200871 ms]" caller="time_task.go:36" module=statistical
+time="2018-12-03T18:00:42+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831242732 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T18:00:42+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831242767 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T18:08:38+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831718253 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T18:08:38+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831718291 ms]" caller="api.go:172" module=statistical
+time="2018-12-03T18:09:21+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] beginTime[1543831761390 ms]" caller="api.go:154" module=statistical
+time="2018-12-03T18:09:21+08:00" level=info msg="GetRankHistroy symbol[5] address[0xff6ec2682db02936eb0b9cea6c9cbd5b2d44847b] State[Success] endTime[1543831761424 ms]" caller="api.go:172" module=statistical
